@@ -8,6 +8,7 @@ const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const handleMenu = () => {
+    document.body.classList.toggle("hidden");
     setShowMenu(!showMenu);
   };
 

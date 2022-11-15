@@ -116,4 +116,8 @@
   #nav-btn {
     padding: 15px 100px;
   }
+
+  .hidden {
+    overflow-y: hidden;
+  }
 }
