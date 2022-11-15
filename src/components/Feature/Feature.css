@@ -1,0 +1,34 @@
+.feature {
+  background-color: var(--cta-primary);
+  border-radius: 4px;
+  color: var(--neutral);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0px 60px;
+  padding: 30px 30px 0 30px;
+}
+
+.feature .text {
+  line-height: 1.5;
+}
+
+#cta-feature {
+  background-color: var(--bg-color-primary);
+  color: var(--cta-primary);
+}
+
+.feature-right img {
+  width: 40vw;
+}
+
+@media screen and (max-width: 650px) {
+  .feature {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-right img {
+    margin: 20px 0 0;
+    width: 100%;
+  }
+}

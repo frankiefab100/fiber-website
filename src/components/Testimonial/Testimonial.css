@@ -1,0 +1,39 @@
+.testimonial {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 40px 60px;
+}
+
+.testimonial-group {
+  border: 1px solid var(--border-color-primary);
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+.testimonial .bio {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  padding-left: 12px;
+}
+
+.heading {
+  color: var(--cta-primary);
+  margin-bottom: 0;
+}
+
+.text {
+  line-height: 1.5;
+}
+
+#cta-portfolio {
+  border: 1px solid var(--border-color-primary);
+  background-color: var(--bg-color-primary);
+  color: var(--cta-primary);
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+}

@@ -1,0 +1,23 @@
+.footer {
+  background-color: var(--bg-color-secondary);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 35px;
+  padding: 40px 60px;
+}
+
+.footer-group:nth-child(1) {
+  width: 320px;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  padding-left: 0;
+}
+
+.footer-links > li {
+  padding: 5px 0;
+}

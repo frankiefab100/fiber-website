@@ -1,0 +1,116 @@
+.signup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  min-height: 100vh;
+}
+
+.signup-right,
+.signup-left {
+  padding: 60px 80px;
+}
+
+#logo {
+  font-weight: 700;
+  margin: 20px 0 30px;
+  padding: 0;
+}
+
+.signup-left {
+  background-color: var(--bg-color-primary);
+}
+
+.header {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0 10px;
+  width: 100%;
+}
+
+form label {
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0 2px;
+}
+
+form input {
+  border: 1px solid var(--text-secondary);
+  margin: 5px 0px;
+  padding-right: 20px;
+}
+
+form input::placeholder {
+  color: var(--text-secondary);
+}
+
+form input:focus {
+  border: 1px solid var(--cta-primary);
+}
+
+.eye-icon {
+  position: absolute;
+  cursor: pointer;
+  top: 40px;
+  right: 15px;
+}
+
+.cta-form {
+  background-color: var(--cta-primary);
+  border-radius: 5px;
+  color: var(--neutral);
+  margin: 8px 0;
+  font-size: 1.1rem;
+  height: 50px;
+  width: 100%;
+}
+
+.cta-form:hover {
+  background-color: var(--cta-secondary);
+}
+
+#checkbox {
+  margin-right: 5px;
+}
+
+.terms {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 6px 0;
+}
+
+.signup-right {
+  background-color: var(--cta-primary);
+  color: var(--neutral);
+  text-align: center;
+}
+
+.signup-right img {
+  width: 520px;
+}
+
+.signup-right .subtitle {
+  margin-bottom: -10px;
+}
+
+@media screen and (max-width: 650px) {
+  .signup {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .signup-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .signup-left {
+    padding: 60px 40px;
+  }
+}

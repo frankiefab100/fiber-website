@@ -1,0 +1,8 @@
+.services {
+  padding: 40px 60px;
+}
+
+.service-column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
