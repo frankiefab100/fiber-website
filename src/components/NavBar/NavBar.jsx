@@ -14,7 +14,9 @@ const NavBar = () => {
 
   return (
     <nav className="nav">
-      <div className="logo">Fiber</div>
+      <Link to="/">
+        <div className="logo">Fiber</div>
+      </Link>
 
       <div className="hamburger-icon" onClick={handleMenu}>
         {showMenu ? (

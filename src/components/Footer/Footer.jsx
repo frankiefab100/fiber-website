@@ -30,53 +30,44 @@ const Footer = () => {
         </ul>
       </div>
       <div className="footer-group">
-        <h3 id="header">Sitemap</h3>
+        <h3 id="header">Resources</h3>
         <ul className="footer-links">
           <li>
-            <a href="link">Homepage</a>
+            <a href="link">Support</a>
           </li>
           <li>
-            <a href="link">Pricing</a>
+            <a href="link">Contact</a>
           </li>
           <li>
-            <a href="link">Testimonials</a>
-          </li>
-          <li>
-            <a href="link">Features</a>
+            <a href="link">FAQ</a>
           </li>
         </ul>
       </div>
       <div className="footer-group">
-        <h3 id="header">Sitemap</h3>
+        <h3 id="header">Company</h3>
         <ul className="footer-links">
           <li>
-            <a href="link">Homepage</a>
+            <a href="link">About</a>
           </li>
           <li>
-            <a href="link">Pricing</a>
+            <a href="link">Customers</a>
           </li>
           <li>
-            <a href="link">Testimonials</a>
-          </li>
-          <li>
-            <a href="link">Features</a>
+            <a href="link">Blog</a>
           </li>
         </ul>
       </div>
       <div className="footer-group">
-        <h3 id="header">Sitemap</h3>
+        <h3 id="header">Portfolios</h3>
         <ul className="footer-links">
           <li>
-            <a href="link">Homepage</a>
+            <a href="link">Sarah Andrews</a>
           </li>
           <li>
-            <a href="link">Pricing</a>
+            <a href="link">Mathew Higgins</a>
           </li>
           <li>
-            <a href="link">Testimonials</a>
-          </li>
-          <li>
-            <a href="link">Features</a>
+            <a href="link">Janice Dave</a>
           </li>
         </ul>
       </div>
