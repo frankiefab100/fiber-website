@@ -30,7 +30,6 @@ body {
   font-family: "Inter", sans-serif;
   background: var(--bg-color-primary);
   color: var(--text-primary);
-  width: 100vw;
   height: 100vh;
 }
 
@@ -107,5 +106,15 @@ button:hover {
   .testimonial,
   .footer {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .feature {
+    margin: 0px 30px;
+  }
+
+  .services,
+  .testimonial,
+  .footer {
+    padding: 35px 30px;
   }
 }

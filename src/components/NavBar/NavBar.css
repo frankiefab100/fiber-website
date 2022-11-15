@@ -74,10 +74,14 @@
     padding-top: 1rem;
   }
 
+  .logo {
+    padding-left: 30px;
+  }
+
   .hamburger-icon {
     cursor: pointer;
     display: block;
-    padding-right: 40px;
+    padding-right: 30px;
   }
 
   .nav-links {
