@@ -16,10 +16,9 @@ const Testimonial = () => {
           </div>
         </div>
         <p className="text">
-          Setting up my portfolio with Fiber took no <br />
-          more than 10 minutes. Since then, my <br />
-          portfolio has attracted a lot of clients and <br />
-          made me more than $100k
+          Setting up my portfolio with Fiber took no more than 10 minutes. Since
+          then, my portfolio has attracted a lot of clients and made me more
+          than $100k
         </p>
         <button id="cta-portfolio" className="cta-btn">
           View Sarah's Portfolio
@@ -34,10 +33,9 @@ const Testimonial = () => {
           </div>
         </div>
         <p className="text">
-          I have been getting A LOT of leads ever <br />
-          since I used Fiber's premade templates, <br />
-          now I just need to work on my case studies <br />
-          and I'll be ready to go!
+          I have been getting A LOT of leads ever since I used Fiber's premade
+          templates, now I just need to work on my case studies and I'll be
+          ready to go!
         </p>
         <button id="cta-portfolio" className="cta-btn">
           View Mathew's Portfolio
@@ -52,10 +50,8 @@ const Testimonial = () => {
           </div>
         </div>
         <p className="text">
-          I only just started freelancing this year and I <br />
-          have already made more than I ever made <br />
-          in my full-time job. The templates are <br />
-          so amazing.
+          I only just started freelancing this year and I have already made more
+          than I ever made in my full-time job. The templates are so amazing.
         </p>
         <button id="cta-portfolio" className="cta-btn">
           View Janice's Portfolio

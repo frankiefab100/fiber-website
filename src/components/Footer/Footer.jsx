@@ -7,9 +7,8 @@ const Footer = () => {
       <div className="footer-group">
         <h3 id="header">Fiber</h3>
         <p className="info">
-          With Fiber, you can setup your own personal <br />
-          portfolio in minutes with dozens of premade, <br />
-          beautiful templates.
+          With Fiber, you can setup your own personal portfolio in minutes with
+          dozens of premade, beautiful templates.
         </p>
       </div>
       <div className="footer-group">
