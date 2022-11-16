@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import EyeIcon from "../../assets/hide password.svg";
-// import SignupImg from "../../assets/Sign Up Image.png";
 import { Link } from "react-router-dom";
 import { images } from "../../data/images";
 import "./SignUp.css";
 
 const SignUp = () => {
+  const [position, setPosition] = useState(0);
+  const [play, setPlay] = useState(true);
+
+  useEffect(() => {
+    let autoPlay =
+      play &&
+      setTimeout(() => {
+        setPosition(position === images.length - 1 ? 0 : position + 1);
+      }, 3000);
+  });
+
   return (
     <div className="signup">
       <div className="signup-left">
@@ -72,17 +82,27 @@ const SignUp = () => {
         </form>
       </div>
       <div className="signup-right">
-        <div className="carousel">
+        <div
+          className="carousel"
+          onMouseEnter={() => {
+            setPlay(false);
+            clearTimeout(autoPlay);
+          }}
+          onMouseLeave={() => setPlay(true)}
+        >
           {images.map((img, index) => {
             return (
-              <div key={index} className="carousel-card">
+              <div
+                key={index}
+                className={
+                  index === position ? "carousel-card active" : "carousel-card"
+                }
+              >
                 <img src={img.image} alt="signup image" />
               </div>
             );
           })}
         </div>
-
-        {/* <img src={SignupImg} alt="signup image" /> */}
 
         <div className="carousel-text">
           <h2 className="subtitle">Unparallelled Templates</h2>
@@ -91,7 +111,17 @@ const SignUp = () => {
             templates are unparalleled in the market.
           </p>
         </div>
-        <div className="carousel-dots">...</div>
+        <div className="carousel-dots">
+          {images.map((_, index) => {
+            return (
+              <div
+                key={index}
+                className={index === position ? "dot active" : "dot"}
+                onClick={() => setPosition(index)}
+              ></div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

@@ -108,6 +108,8 @@ form input:focus {
   display: flex;
   flex: 1;
   width: 100%;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .carousel-text {
@@ -116,6 +118,32 @@ form input:focus {
 
 .signup-right .subtitle {
   margin-bottom: -10px;
+}
+
+.carousel-card.active {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: visible;
+}
+
+.dot {
+  background-color: var(--bg-color-primary);
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+  opacity: 0.4;
+}
+
+.dot:hover {
+  transform: scale(1.2);
+}
+
+.dot.active {
+  background-color: var(--bg-color-secondary);
+  opacity: 1;
 }
 
 @media screen and (max-width: 650px) {
