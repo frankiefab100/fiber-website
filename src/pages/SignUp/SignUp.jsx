@@ -1,7 +1,8 @@
 import React from "react";
 import EyeIcon from "../../assets/hide password.svg";
-import SignupImg from "../../assets/Sign Up Image.png";
+// import SignupImg from "../../assets/Sign Up Image.png";
 import { Link } from "react-router-dom";
+import { images } from "../../data/images";
 import "./SignUp.css";
 
 const SignUp = () => {
@@ -71,13 +72,25 @@ const SignUp = () => {
         </form>
       </div>
       <div className="signup-right">
-        <img src={SignupImg} alt="signup image" />
+        <div className="carousel">
+          {images.map((img, index) => {
+            return (
+              <div key={index} className="carousel-card">
+                <img src={img.image} alt="signup image" />
+              </div>
+            );
+          })}
+        </div>
 
-        <h2 className="subtitle">Unparallelled Templates</h2>
-        <p className="text">
-          Crafted by a team of professional designers, our <br />
-          templates are unparalleled in the market.
-        </p>
+        {/* <img src={SignupImg} alt="signup image" /> */}
+
+        <div className="carousel-text">
+          <h2 className="subtitle">Unparallelled Templates</h2>
+          <p className="text">
+            Crafted by a team of professional designers, our <br />
+            templates are unparalleled in the market.
+          </p>
+        </div>
         <div className="carousel-dots">...</div>
       </div>
     </div>
