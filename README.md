@@ -4,7 +4,7 @@
 <p align="center">
     <a href="https://fiber-ui.netlify.app/">Preview Link</a>
     ·
-    <a href="https://github.com/frankiefab100/Web3Collectives/blob/master/public/design">UI Design Templates</a>
+    <a href="https://github.com/frankiefab100/Web3Collectives/tree/master/public/design">UI Design Templates</a>
 </p>
 
 <p>
