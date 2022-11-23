@@ -1,5 +1,5 @@
 <div align="center">
- <h1>Fiber Landing Page</h1>
+ <h1>Fiber Website</h1>
  <p>Setup your own personal portfolio in minutes</p>
 <p align="center">
     <a href="https://fiber-ui.netlify.app/">Preview Link</a>
@@ -16,6 +16,9 @@
 <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white">
 </p>
 </div>
+
+![Landing Page - Desktop View](https://user-images.githubusercontent.com/46662771/203664769-8b390edc-f826-4af5-98ac-da9ace620046.jpg)
+
 
 ## Technologies Used 🛠
 
