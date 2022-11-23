@@ -1,64 +1,55 @@
 <div align="center">
-
- 
  <h1>Fiber Landing Page</h1>
  <p>Setup your own personal portfolio in minutes</p>
-</div>
-
-<div align="center">
-</div>
-  
 <p align="center">
-    <a href="https://">Preview Link</a>
+    <a href="https://fiber-ui.netlify.app/">Preview Link</a>
     ·
-    <a href="https://github.com/frankiefab100/">Report Bug</a>
-    ·
-    <a href="https://github.com/frankiefab100/">Request Feature</a>
+    <a href="https://github.com/frankiefab100/Web3Collectives/blob/main/public/design">UI Design Templates</a>
 </p>
-  
-<p align="center">Feel free to submit your contributions to this project. </br>
-Read our <a href="https://github.com/frankiefab100">Contributors Guidelines</a>. You can also <a href= "https://www.buymeacoffee.com/frankiefab100">support</a> by making donations to help it improve.</p>
- 
 
-## **Project Overview** ✨
+<p>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
+<img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white">
+</p>
+</div>
 
-Personal portfolio builder user interface.
-
-Preview Link: <https:///>
-
-### **Technologies Used** 🛠
+## Technologies Used 🛠
 
 - React (Framework)
-- React-Router (React Library)
+- CSS (Styling)
+- React-Router (Page Route)
 - Netlify (Hosting)
 
-
-## **Getting Started** 💻
+## How to run locally 
 
 This project was bootstrapped with [Vite](https://vitejs.dev).
 
-### **Prerequisites**
+### Prerequisites
 
-Make sure you have [Node.js](https://nodejs.org/) and [NPM](https://www.npmjs.com/) installed.
+- [Node.js](https://nodejs.org/)
+- [NPM](https://www.npmjs.com/)
 
-- Node.js (>= 17.4.0)
-- NPM (>= 8.4.0)
+### Setup 🚧
 
-### **Setup** 👨‍💻
+Install dependencies
 
-1. Install dependencies
-   `npm install`
+```BASH
+npm install
+```
 
-2. Run the development server
-   `npm run dev`
+Run the development server
 
-3. Navigate to `http://localhost:3000` in your browser to view the web app.
+```BASH
+npm run dev
+```
 
-## **Contributing** 🤝🏾
+Navigate to `http://localhost:3000` in your browser to view the web app.
 
-Did you find bug(s) or want to request new feature(s)? Please visit the [Contributors guidelines](./CONTRIBUTING.md) to learn how to submit an issue or pull request.
-
-## **License** 🔐
+## License 📜
 
 This project is built under the [MIT License](./License).
 
@@ -66,6 +57,7 @@ This project is built under the [MIT License](./License).
 
 UI design from [Codewell](https://codewell.cc)
 
-## **Author** ✍
+## Author ✍
 
 Franklin Ohaegbulam - [@frankiefab100](https://twitter.com/frankiefab100)
+

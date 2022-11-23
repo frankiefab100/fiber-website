@@ -28,13 +28,13 @@ const NavBar = () => {
 
       <ul className={`${showMenu ? "nav-links mobile-nav" : "nav-links"}`}>
         <li onClick={handleMenu}>
-          <a href="about">Community</a>
+          <a href="community">Community</a>
         </li>
         <li onClick={handleMenu}>
-          <a href="contact">Pricing</a>
+          <a href="pricing">Pricing</a>
         </li>
         <li onClick={handleMenu}>
-          <a href="submit">Features</a>
+          <a href="features">Features</a>
         </li>
         <div className="user-auth">
           <Link to="signin" className="sign-in">
