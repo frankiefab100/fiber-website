@@ -60,6 +60,7 @@ a:visited {
 
 #underline {
   color: var(--cta-secondary);
+  font-weight: 800;
   text-decoration: underline;
 }
 

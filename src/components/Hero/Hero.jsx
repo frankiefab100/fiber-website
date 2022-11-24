@@ -10,6 +10,10 @@ const Hero = () => {
       <div className="hero-left">
         <div className="review">
           <img src={Star} alt="star" />
+          <img src={Star} alt="star" />
+          <img src={Star} alt="star" />
+          <img src={Star} alt="star" />
+          <img src={Star} alt="star" />
 
           <span>Rated 4.8/5 (243 reviews)</span>
         </div>
